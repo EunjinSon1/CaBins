@@ -1,11 +1,12 @@
 # CaBins
 CaBins: CLIP-based Adaptive Bins for Monocular Depth Estimation
+[paper link]
 
 ## Installation
 
 ## Datasets
 We use [NYU-Depth V2](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html) and [KITTI](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) datasets.
-You can prepare datasets by following [bts](https://github.com/cleinc/bts/tree/master) and modify the path in the argument file.
+You can prepare datasets by following [BTS](https://github.com/cleinc/bts/tree/master) and modify the path in the argument file.
 
 ## Training
 Training on NYU-Depth V2 dataset:
