@@ -4,7 +4,7 @@ CaBins: CLIP-based Adaptive Bins for Monocular Depth Estimation
 
 ## Installation
 ```bash
-conda create -n CaBins python=3.9 -y
+conda create -n CaBins python=3.9 --y
 conda activate CaBins 
 conda install pytorch=1.13.0 torchvision pytorch-cuda=11.6 -c pytorch -c nvidia
 conda install -c fvcore -c iopath -c conda-forge fvcore iopath
