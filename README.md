@@ -12,6 +12,7 @@ conda install pytorch3d -c pytorch3d
 
 pip install wandb scipy ftfy regex tqdm
 ```
+You can check the training progress through wandb.
 
 ## Datasets
 We use [NYU-Depth V2](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html) and [KITTI](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) datasets.
