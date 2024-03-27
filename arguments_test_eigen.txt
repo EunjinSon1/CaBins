@@ -1,0 +1,20 @@
+--data_path ../dataset/kitti/kitti_data/
+--gt_path ../dataset/kitti/kitti_data_depth_annotated/total/
+--filenames_file ./train_test_inputs/kitti_eigen_test_files_with_gt.txt
+
+--input_height 376
+--input_width 1241
+--min_depth 1e-3
+--max_depth 80
+
+--data_path_eval ../dataset/kitti/kitti_data/
+--gt_path_eval ../dataset/kitti/kitti_data_depth_annotated/total/
+--filenames_file_eval ./train_test_inputs/kitti_eigen_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 80
+
+--garg_crop
+--do_kb_crop
+--dataset kitti
+--checkpoint_path ./checkpoints/
+--save_dir predictions_kitti
