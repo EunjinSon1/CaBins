@@ -1,6 +1,5 @@
 # CaBins
 CaBins: CLIP-based Adaptive Bins for Monocular Depth Estimation
-[paper link]
 
 ## Installation
 ```bash
